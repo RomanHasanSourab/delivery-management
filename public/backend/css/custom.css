@@ -1,0 +1,75 @@
+
+@media (max-width: 991px){
+    .sidebar::before, .off-canvas-sidebar nav .navbar-collapse::before{
+        background-color: white !important;
+    }
+}
+.content{
+    margin-top: 25px !important;
+}
+
+.navbar .notification{
+    border : 1px solid #9c27b0;
+}
+.modal-header{
+    border-top-left-radius: none !important;
+    border-top-right-radius: none !important;
+    /* background-color: #9c27b0 !important;
+    border-color: #9c27b0 !important; */
+    color: #9c27b0;
+}
+.close{
+    color: red !important;
+}
+.toast {
+    opacity: 1 !important;
+  }
+
+  #toast-container > div {
+    opacity: 1 !important;
+  }
+
+.select2{
+    width: 100%;
+}
+thead
+{
+    background-color: #9C27B7 !important;
+    color : white;
+}
+input
+{
+    border: 1.5px solid #9c27b0;
+}
+table.dataTable.no-footer{
+    border-bottom: 1px solid #ddd;
+}
+table.dataTable thead th, table.dataTable thead td
+{
+    border-bottom: 1px solid #ddd;
+}
+.no-border{
+    border: none;
+    background-color: transparent;
+}
+.t-res{
+    color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+    background-color: white;
+}
+.icon-bar{
+    color: white;
+    background-color: white;
+}
+table.dataTable thead th, table.dataTable tfoot th
+{
+    font-weight: unset;
+}
+/* .btn{
+    padding: 10px 10px;
+} */
+table.dataTable thead .sorting_asc{
+    background-image: unset !important;
+}

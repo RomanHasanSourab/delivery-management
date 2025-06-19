@@ -1,0 +1,57 @@
+/* *{
+    font-family: 'Baloo Tamma 2' !important;
+} */
+body{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+.purple{
+    color: #9c27b0;
+}
+.orange{
+    color: #f44336;
+}
+/*.nav-item{*/
+/*    margin-right: 5px;*/
+/*      color:white ;*/
+/*}*/
+/*.nav-link{*/
+/*    background-color: #9c27b0;*/
+/*    color:white ;*/
+/*}*/
+.navbar.navbar-transparent {
+     /*background-color: transparent !important; */
+     background-color: rgba(255, 255, 255, 0.6) !important;
+    box-shadow: none;
+    padding-top: 25px;
+    color: #555;
+  }
+.breadcrumb{
+    background-color: unset !important;
+    margin-top: 3em;
+}
+.card .card-header{
+    margin-left: unset !important;
+    margin-right: unset !important;
+}
+.no-shadow{
+    box-shadow: unset !important;
+}
+.form-control, .is-focused .form-control
+{
+    background-image: linear-gradient(to top, #f44336 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px) !important;
+}
+.is-focused [class^='bmd-label'], .is-focused [class*=' bmd-label']
+{
+    color: #f44336 !important;
+}
+
+.owl-carousel .owl-item img
+{
+    height: 12em;
+}
+@media only screen and (max-width: 991px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: white !important;
+    }
+}
+
